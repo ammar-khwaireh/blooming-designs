@@ -95,7 +95,7 @@ function BouquetDetail() {
               Composed with
             </p>
             <ul className="mt-3 flex flex-wrap gap-2">
-              {bouquet.flowers.map((f) => (
+              {bouquet.flowers.map((f: string) => (
                 <li
                   key={f}
                   className="rounded-full border border-border bg-background px-3 py-1 text-xs text-foreground"
